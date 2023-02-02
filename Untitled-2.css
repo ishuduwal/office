@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f2f2f9;
+    color: #000;
+}
+.home{
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    gap:250px;
+    padding: 0;
+}
+.makeit{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.option ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(48, 45, 45);
+    margin: 10px;
+    padding: 10px;
+}
+ul li a:hover{
+    color: #000;
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    padding-top: 60px;
+    padding-left: 90px;
+}
+h1{
+    font-size: 45px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right,#256df0 ,#0c1d9f);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.shapes{
+    display: flex;
+}
+.shape{
+    background-color: #daedf4;
+    height: 110px;
+    width: 45px;
+    padding-right: 0;
+}
+.begin{
+    height: 40px;
+    width: 150px;
+    background-color: #030082;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.img{
+    height: 500px;
+    width: 450px;
+    padding: 0;
+}
+.about{
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    gap: 150px;
+    width: 100%;
+}
+.me{
+    height: 520px;
+    width: 650px;
+}
+.duita{
+    padding-top:150px;
+}
+.learn{
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+    background-color: #030082;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.feri{
+    display: flex;
+}
+.learn>p>{
+    justify-content: center;
+}
+.style{
+    height: 100px;
+    width: 200px;
+    background-color: #daedf4;
+}
+.hint{
+    height: 40vh;
+    background-image: url(austin-distel-mpN7xjKQ_Ns-unsplash.jpg);
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first{
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+.num{
+    font-size: 50px;
+}
+.data{
+    font-size: 20px;
+}
+.story{
+    background-color: #f2f1fa;
+    height: 100vh;
+    color: #000;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.big{
+    background-color: #fff;
+    height: 230px;
+    width: 700px;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+.jpt{
+    padding-top: 20px;
+}
+.arrow{
+    padding-top: 145px;
+}
+.comma{
+    padding-top: 0;
+    mix-blend-mode: color-burn;
+}
+.news{
+    height: 100vh;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.ishu{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 0%;
+}
+.photo{
+    height: 350px;
+    width: 350px;
+}
+.see{
+    background-color: #030082;
+    border: none;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    gap:3px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.box{
+    height: 450px;
+    width: 500px;
+    background-image: url(arpad-czapp-H424WdcQN4Y-unsplash.jpg);
+    background-size: cover;
+    padding: 30px;
+    padding-top: 50px;
+}
+input{
+    width: 100%;
+    height: 45px;
+    border:none;
+    outline: 1px solid #fff;
+    background-color: transparent;
+    padding: 5px;
+}
+.msg{
+    height: 100px;
+}
+.placeholder{
+    color: #fff;
+}
+.submit{
+    height: 40px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+    color: #1d1b8d;
+    font-weight: 800;
+}
+.info{
+    padding-top: 165px;
+}
+div{
+    padding-top: 40px;
+}
+.footer{
+    height: 40vh;
+    display: flex;
+    background-color: #030082;
+    padding-top: 20px;
+    justify-content: space-around;
+    color: #fff;
+    gap: 450px;
+}
+.fa-brands{
+    color: #fff;
+    font-size: 21px;
+}
+.social{
+    padding-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.left{
+    display: flex;
+    gap: 50px;
+    padding-top: 0;
+}
+li{
+    color: white;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.more{
+    display: flex;
+}
+.logo{
+    padding: 0px;
+    font-size: 15px;
+}
