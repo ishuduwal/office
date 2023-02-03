@@ -52,7 +52,7 @@ ul li a:hover{
     padding-top: 60px;
     padding-left: 90px;
 }
-h1{
+.elevate{
     font-size: 45px;
     font-weight: bold;
     background-image: linear-gradient(to bottom right,#256df0 ,#0c1d9f);
