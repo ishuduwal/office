@@ -163,6 +163,9 @@ ul li a:hover{
     width: 100%;
     place-items: center;
 }
+.sq{
+    color: #000;
+}
 .first{
     background-color: #fff;
     height: 150px;
