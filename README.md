@@ -1,5 +1,5 @@
 # office
-made it using html css. office website(now completed)take a look
+![office](https://user-images.githubusercontent.com/115239975/222330520-29a57e7b-0ea8-49ba-87b1-882f9a110bac.gif)
 ![image](https://user-images.githubusercontent.com/115239975/221084458-1727d415-9d90-4fce-9aee-f843d8eb18cd.png)
 ![image](https://user-images.githubusercontent.com/115239975/221084479-ffb9324b-11ae-4c77-81f9-1960d1f6235c.png)
 ![image](https://user-images.githubusercontent.com/115239975/221084580-ef04f541-4526-4ede-800b-218d0d608fcf.png)
