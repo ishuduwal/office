@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f2f2f9;
+    color: #000;
+}
+.home{
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    gap:250px;
+    padding: 10px;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0%;
+    background-color: #fff;
+}
+.makeit{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.option{
+    padding-top: 10px;
+}
+.option ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(48, 45, 45);
+    margin: 10px;
+    padding: 10px;
+}
+ul li a:hover{
+    color: #000;
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.intro{
+    padding-top: 90px;
+}
+.tex{
+    padding-left: 90px;
+}
+.elevate{
+    font-size: 45px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right,#256df0 ,#0c1d9f);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.blue{
+    background-color: #daedf4;
+    height: 150px;
+    width: 50px;
+}
+.shapes{
+    display: flex;
+    padding-top: 60px;
+}
+.b{
+    padding-left: 50px;
+}
+.begin{
+    height: 40px;
+    width: 150px;
+    background-color: #030082;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.img{
+    height: 500px;
+    width: 450px;
+}
+.image{
+    padding-top: 40px;
+}
+.four{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+.f{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.s{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.t{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.u{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+   justify-content: space-between;
+    width: 100%;
+}
+.me{
+    height: 90vh;
+    width: 650px;
+    object-fit: cover;
+}
+.duita{
+    padding-top:150px;
+}
+.learn{
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+    background-color: #030082;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.feri{
+    display: flex;
+}
+.learn>p>{
+    justify-content: center;
+}
+.col{
+    height: 100px;
+    width: 200px;
+    background-color: #daedf4;
+}
+.sq{
+    color: #000;
+}
+.hint{
+    height: 40vh;
+    background-image: url(austin-distel-mpN7xjKQ_Ns-unsplash.jpg);
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    place-items: center;
+}
+.first{
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    padding-top:30px;
+}
+.num{
+    font-size: 50px;
+}
+.data{
+    font-size: 20px;
+}
+.story{
+    background-color: #f2f1fa;
+    height: 100vh;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.big{
+    background-color: #fff;
+    height: 230px;
+    width: 700px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+.jpt{
+    padding-top: 20px;
+}
+.arrow{
+    padding-top: 95px;
+}
+.ar{
+    color: #000;
+}
+.comma{
+    padding-top: 0;
+    mix-blend-mode: color-burn;
+}
+.news{
+    height: 100vh;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+}
+.ishu{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 0%;
+}
+.photo{
+    height: 350px;
+    width: 350px;
+}
+.see{
+    background-color: #030082;
+    border: none;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    gap:3px;
+    height: 100vh;
+    width: 100%;
+}
+h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.box{
+    height: 450px;
+    width: 500px;
+    background-image: url(arpad-czapp-H424WdcQN4Y-unsplash.jpg);
+    background-size: cover;
+    padding: 30px;
+    padding-top: 50px;
+}
+input{
+    width: 100%;
+    height: 45px;
+    border:none;
+    outline: 1px solid #fff;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+}
+.msg{
+    height: 100px;
+}
+.placeholder{
+    color: #fff;
+}
+.msg{
+    width: 100%;
+    background: transparent;
+    outline: 1px solid #fff;
+    border: none;
+    color: white;
+}
+.submit{
+    height: 40px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+    color: #1d1b8d;
+    font-weight: 800;
+}
+.info{
+    padding-top: 165px;
+}
+div{
+    padding-top: 40px;
+}
+.footer{
+    height: 40vh;
+    display: flex;
+    background-color: #030082;
+    padding-top: 20px;
+    justify-content: space-around;
+    color: #fff;
+    gap: 450px;
+    width: 100%;
+}
+.fa-brands{
+    color: #fff;
+    font-size: 21px;
+}
+.fa-brands:hover{
+    color: #000;
+}
+.social{
+    padding-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.left{
+    display: flex;
+    gap: 50px;
+    padding-top: 0;
+}
+li{
+    color: white;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.more{
+    display: flex;
+}
+.logo{
+    padding: 0px;
+    font-size: 15px;
+    color: #fff;
+}
